@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menyer : MonoBehaviour
 {
-    public void StartMeny()
+    public void StartGame()
     {
         SceneManager.LoadScene("");
     }
