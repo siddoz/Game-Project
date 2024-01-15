@@ -8,4 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Sofia.unity
+    guid: a0821acee07fb08469bf0d31da80d015
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
