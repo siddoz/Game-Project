@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed145af947e7fc445be9fd34cdeb1f02, type: 3}
-  m_Name: "Hugga ner tr\xE4d"
+  m_Name: Sten
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
   type: 0
-  actionType: 0
+  actionType: 1
   raneg: {x: 5, y: 4}
   stackable: 1
   image: {fileID: 0}
