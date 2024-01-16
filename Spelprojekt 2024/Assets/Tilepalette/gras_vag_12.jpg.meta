@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cfee17ecb90609d46a732953d0b70d71
+guid: edbeee9a6988a844ca95c5679c51aeab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3059196445945127985
-    second: gras_vag_2_2 (1)_0
+      213: -8640820721753583136
+    second: gras_vag_12_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gras_vag_2_2 (1)_0
+      name: gras_vag_12_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13462b295f2747a20800000000000000
-      internalID: 3059196445945127985
+      spriteID: 0e11b08a553a51880800000000000000
+      internalID: -8640820721753583136
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      gras_vag_2_2 (1)_0: 3059196445945127985
+      gras_vag_12_0: -8640820721753583136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
