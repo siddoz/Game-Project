@@ -13,6 +13,11 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     [HideInInspector] public int count = 1;
     [HideInInspector] public Transform parentAfterDrag;
 
+    private void Start()
+    {
+        InistialiseItem(item);
+    }
+
     public void InistialiseItem(Item newItem)
     {
         item = newItem;

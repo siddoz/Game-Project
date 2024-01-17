@@ -77,14 +77,26 @@ public class InventoryManager : MonoBehaviour
         for (int i = 0; i < InventorySlots.Length; i++)
         {
             InventorySlot slot = InventorySlots[i];
-            InventoryItem iteminslot = slot.GetComponentInChildren<InventoryItem>();
-            if (iteminslot != null && iteminslot.item == item && iteminslot.count < Maxstackeditems && iteminslot.item.stackable == true)
+            InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
+            if (itemInSlot != null && itemInSlot.item == item && itemInSlot.count < Maxstackeditems && itemInSlot.item.stackable == true)
             {
-                iteminslot.count++;
-                iteminslot.Refreshcount();
+                itemInSlot.count++;
+                itemInSlot.Refreshcount();
                 return true;
             }
         }
+
+        for (int i = 0; i < InventorySlots.Length; i++)
+        {
+            InventorySlot slot = InventorySlots[i];
+            InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
+            if (itemInSlot == null)
+            {
+                SpawnNewItems(item, slot);
+                return true;
+            }
+        }
+
         return false;
     }
 

@@ -17,4 +17,4 @@ MonoBehaviour:
   actionType: 1
   raneg: {x: 5, y: 4}
   stackable: 0
-  image: {fileID: 0}
+  image: {fileID: 8959118705387878318, guid: 29d4887582a1c0b419984b4da2b9c8f7, type: 3}
