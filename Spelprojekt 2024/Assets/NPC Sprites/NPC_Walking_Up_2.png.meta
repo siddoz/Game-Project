@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 6bd22e9efd5624842b84e409012908b4
+guid: 6f03a817b296f44419711ff740995973
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6458763625150127605
-    second: bjork_trad_1_0
-  - first:
-      213: 2987107581161749698
-    second: bjork_trad_1_1
-  - first:
-      213: -6950865338556347772
-    second: bjork_trad_1_2
+      213: -6251770216897629711
+    second: NPC_Walking_Up_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bjork_trad_1_0
+      name: NPC_Walking_Up_2_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 2271
-        width: 34
-        height: 34
+        x: 151
+        y: 95
+        width: 546
+        height: 898
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,50 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fd994d0c4322a950800000000000000
-      internalID: 6458763625150127605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bjork_trad_1_1
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 735
-        width: 1218
-        height: 2242
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ccb509c486547920800000000000000
-      internalID: 2987107581161749698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bjork_trad_1_2
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 2143
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48a06c54dc0998f90800000000000000
-      internalID: -6950865338556347772
+      spriteID: 1f1337c6c104d39a0800000000000000
+      internalID: -6251770216897629711
       vertices: []
       indices: 
       edges: []
@@ -179,9 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bjork_trad_1_0: 6458763625150127605
-      bjork_trad_1_1: 2987107581161749698
-      bjork_trad_1_2: -6950865338556347772
+      NPC_Walking_Up_2_0: -6251770216897629711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
