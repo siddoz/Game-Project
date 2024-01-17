@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -55,4 +56,13 @@ TagManager:
     locked: 0
   - name: 1 - first
     uniqueID: 3824172911
+  - name: 3 - last
+    uniqueID: 227284939
+    locked: 0
+  - name: tTilemap
+    uniqueID: 95263653
+  - name: Player
+    uniqueID: 571894661
+  - name: NPC
+    uniqueID: 1601703847
     locked: 0
