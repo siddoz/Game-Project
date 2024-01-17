@@ -42,15 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 1 - first
-    uniqueID: 3824172911
+  - name: tTilemap
+    uniqueID: 95263653
+    locked: 0
+  - name: 3 - last
+    uniqueID: 227284939
     locked: 0
   - name: Player
     uniqueID: 2935911743
     locked: 0
-  - name: 2 - after player
+  - name: 2 - before player
     uniqueID: 2603521881
     locked: 0
+  - name: 1 - first
+    uniqueID: 3824172911
   - name: 3 - last
     uniqueID: 227284939
     locked: 0
