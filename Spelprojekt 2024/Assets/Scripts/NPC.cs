@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour
     public Text dialogText;
     public string[] dialog;
     private int index;
+    public GameObject continueButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -25,6 +26,10 @@ public class NPC : MonoBehaviour
                 dialogText.enabled = true;
                 StartCoroutine(Typing());
             }
+        }
+        if (dialogText.text == dialog[index])
+        {
+            continueButton.SetActive(true);
         }
     }
     public void zeroText()
@@ -43,6 +48,7 @@ public class NPC : MonoBehaviour
     }
     public void NextLine()
     {
+        continueButton.SetActive(false);
         if (index < dialog.Length - 1)
         {
             index++;
