@@ -20,10 +20,12 @@ public class EnemyController : MonoBehaviour
     {
         if(Vector3.Distance(target.position, transform.position)<= maxRange && Vector3.Distance(target.position, transform.position)>= minRange)
         {
+            Debug.Log("Follow");
             FollowPlayer();
         }
         else if (Vector3.Distance(target.position, transform.position)>= maxRange)
         {
+            Debug.Log("Gohome");
             GoHome();
         }
     }

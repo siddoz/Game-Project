@@ -8,11 +8,13 @@ public class HealthManager : MonoBehaviour
     public int maxHealth;
     public void HurtPlayer(int damageToGive)
     {
+        Debug.Log("currencthealth:" +currentHealth);
         currentHealth -= damageToGive;
         if (currentHealth <= 0)
         {
             gameObject.SetActive(false);
         }
+        Debug.Log("currencthealth after damage:" + currentHealth);
     }
 }
 

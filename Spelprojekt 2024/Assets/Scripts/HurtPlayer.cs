@@ -8,9 +8,9 @@ public class HurtPlayer : MonoBehaviour
     private bool isTouching;
     private HealthManager healthManager;
     public int damageToGive = 10;
-    void Start()
+    void Awake()
     {
-        healthManager = FindObjectOfType<HealthManager>();
+        //healthManager = FindObjectOfType<HealthManager>();
     }
     void Update()
     {
@@ -27,13 +27,14 @@ public class HurtPlayer : MonoBehaviour
             waitToHurt -= Time.deltaTime;
             if (waitToHurt <= 0)
             {
-                healthManager.HurtPlayer(damageToGive);
+                //healthManager.HurtPlayer(damageToGive);
                 waitToHurt = 2f;
             }
         }
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log("touching");
         if (other.collider.tag == "Player")
         {
             //other.gameObject.SetActive(false);
