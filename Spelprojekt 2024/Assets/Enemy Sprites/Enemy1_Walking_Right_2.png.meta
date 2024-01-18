@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7561b01349faa394baa56625b7d388a6
+guid: ad46a79600413114dbea34dc326d22fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4123175754511741381
-    second: Hotbar_plain_0
+      213: -5738353265839491746
+    second: Enemy1_Walking_Right_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hotbar_plain_0
+      name: Enemy1_Walking_Right_2_0
       rect:
         serializedVersion: 2
-        x: 799
-        y: 1535
-        width: 1602
-        height: 354
+        x: 63
+        y: 105
+        width: 834
+        height: 610
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3e03dd2f7987c6c0800000000000000
-      internalID: -4123175754511741381
+      spriteID: e553fe99b164d50b0800000000000000
+      internalID: -5738353265839491746
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hotbar_plain_0: -4123175754511741381
+      Enemy1_Walking_Right_2_0: -5738353265839491746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
