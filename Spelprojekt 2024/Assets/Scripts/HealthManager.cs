@@ -6,12 +6,6 @@ public class HealthManager : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealth;
-
-    private void Start()
-    {
-        currentHealth = maxHealth;
-    }
-
     public void HurtPlayer(int damageToGive)
     {
         currentHealth -= damageToGive;
@@ -21,3 +15,4 @@ public class HealthManager : MonoBehaviour
         }
     }
 }
+
