@@ -46,6 +46,9 @@ TagManager:
   - name: tTilemap
     uniqueID: 95263653
     locked: 0
+  - name: Bro
+    uniqueID: 1461358109
+    locked: 0
   - name: Gras
     uniqueID: 3001769573
     locked: 0
