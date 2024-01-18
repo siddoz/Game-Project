@@ -56,13 +56,19 @@ TagManager:
     locked: 0
   - name: 1 - first
     uniqueID: 3824172911
+    locked: 0
   - name: 3 - last
     uniqueID: 227284939
     locked: 0
   - name: tTilemap
     uniqueID: 95263653
+    locked: 0
   - name: Player
     uniqueID: 571894661
+    locked: 0
   - name: NPC
     uniqueID: 1601703847
+    locked: 0
+  - name: Enemy
+    uniqueID: 3562690039
     locked: 0

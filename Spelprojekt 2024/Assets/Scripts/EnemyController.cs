@@ -32,7 +32,7 @@ public class EnemyController : MonoBehaviour
         anim.SetBool("WithinRange", true);
         anim.SetFloat("MoveHorizontal", (target.position.x - transform.position.x));
         anim.SetFloat("MoveVertical", (target.position.y - transform.position.y));
-        transform.position = Vector3.MoveTowards(transform.position, target.position, speed * TIme.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
     }
 
     public void GoHome()
