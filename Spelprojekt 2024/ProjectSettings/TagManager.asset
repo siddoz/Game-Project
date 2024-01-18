@@ -61,23 +61,6 @@ TagManager:
   - name: tTilemap
     uniqueID: 95263653
     locked: 0
-
   - name: Player
-    uniqueID: 571894661
-    locked: 0
-  - name: NPC
-    uniqueID: 1601703847
-    locked: 0
-  - name: Enemy
-    uniqueID: 3562690039
-
-  - name: NPC
-    uniqueID: 1601703847
-    locked: 0
-  - name: Player
-    uniqueID: 571894661
-    locked: 0
-  - name: Player
-    uniqueID: 2935911743
-
+    uniqueID: 1591114317
     locked: 0

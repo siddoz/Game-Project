@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Inventory_hotbar_slot_0: -7758606519737457563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
