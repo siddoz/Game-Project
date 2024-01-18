@@ -20,10 +20,12 @@ public class NPC : MonoBehaviour
             if (dialogPanel.activeInHierarchy)
             {
                 zeroText();
+                Debug.Log("dialog panel is active");
             }
             else
             {
-                dialogText.enabled = true;
+
+                dialogPanel.SetActive(true);
                 StartCoroutine(Typing());
             }
         }

@@ -28,6 +28,7 @@ public enum ItemType
 public enum ActionType
 {
     Hugga,
-    Mine
+    Mine,
+    Attack
         //ÄNDRA DEM HÄR, det ska vara allt vi får resurser av. SÅ typ attacken ska skicka hit resurerna samma med hugga trä, med mera
 }
