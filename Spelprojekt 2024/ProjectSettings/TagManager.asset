@@ -61,9 +61,14 @@ TagManager:
   - name: tTilemap
     uniqueID: 95263653
     locked: 0
+
+  - name: Player
+    uniqueID: 1591114317
+
   - name: Enemy
     uniqueID: 3443303519
     locked: 0
   - name: Player
     uniqueID: 3219198763
+
     locked: 0

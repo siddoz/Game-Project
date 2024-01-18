@@ -37,11 +37,23 @@ public class Movement : MonoBehaviour
         if (animator.GetBool("IsAttacking") == true)
         {
             rb.velocity = Vector2.zero;
+            AfterSec();
         }
         else
         {
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }
+    }
+
+    //Stannar koden i några sekunder
+    public void AfterSec()
+    {
+        StartCoroutine(Wait());
+    }
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(0.2f);
+        StopAttack();
     }
 
     void StopAttack()
