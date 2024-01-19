@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pratbubbla_0: -8354508363752886298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
